@@ -1,0 +1,13 @@
+my_list = [1,2,3]
+print (my_list)
+my_list[0] = 100
+print(my_list[0])
+my_turple = (1,2,3)
+print(my_turple)
+my_turple[0] = 100
+print(my_turple[0])
+my_string = "cat"
+print(my_string)
+my_string[0] = 'b'
+print(my_string[0])
+#Строки в Python также неизменяемы.Мы не можем изменить отдельный символ в строке.
