@@ -1,0 +1,6 @@
+num1_str = input("5")
+num2_str = input("10")
+num1 = int(num1_str)
+num2 = int(num2_str)
+result = num1 + num2
+print(result)
