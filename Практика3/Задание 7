@@ -1,0 +1,6 @@
+name = input("Ваше имя:")
+age_str = input("Ваш возраст:")
+subjects_str = input("Любимые предметы(через запятую):")
+age = int(age_str)
+subbjects_list = [item.strip() for item in subjects_str.split(",")]
+student = { "name": name, "age": age,"subjects":subjects_list}
