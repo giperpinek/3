@@ -1,0 +1,24 @@
+import math, random
+
+r = float(input("Радиус: "))
+print("Площадь: ", math.pi * r**2)
+
+f = float(input("Фаренгейт: "))
+print("Цельсий: ", (f - 32) * 5/9)
+
+a = float(input("Катет 1: "))
+b = float(input("Катет 2: "))
+print("Гипотенуза: ", math.sqrt(a**2 + b**2))
+
+x1 = float(input("x1: "))
+y1 = float(input("y1: "))
+x2 = float(input("x2: "))
+y2 = float(input("y2: "))
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print("Расстояние: ", distance )
+
+print("Число 1-100: ", random.randint(1, 100))
+
+x, y = random.uniform(-10, 10), random.uniform(-10,10)
+print("Точка: ", x, y)
+print("До центра: ", math.sqrt(x**2 + y**2))
